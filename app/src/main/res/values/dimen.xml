@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="largeLen">150dp</dimen>
+    <dimen name="medLen">110dp</dimen>
+    <dimen name="smallLen">80dp</dimen>
+    <dimen name="marginLen">5dp</dimen>
+    <dimen name="matchConstraintLen">0dp</dimen>
+</resources>
