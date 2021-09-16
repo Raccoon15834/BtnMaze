@@ -8,4 +8,6 @@
     <string name="greeting3">Greetings!</string>
     <string name="greeting4">long time no see!</string>
     <string name="click_me">Click Me</string>
+    <string name="challengeHeader">BEGIN CHALLENGE!</string>
+    <string name="callToAction">Find your way to BnW layout</string>
 </resources>

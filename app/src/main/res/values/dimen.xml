@@ -3,6 +3,9 @@
     <dimen name="largeLen">150dp</dimen>
     <dimen name="medLen">110dp</dimen>
     <dimen name="smallLen">80dp</dimen>
-    <dimen name="marginLen">5dp</dimen>
+    <dimen name="marginLen">10dp</dimen>
     <dimen name="matchConstraintLen">0dp</dimen>
+
+    <dimen name="bigText">35sp</dimen>
+    <dimen name="lilText">15sp</dimen>
 </resources>
