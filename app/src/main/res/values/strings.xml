@@ -3,11 +3,19 @@
     <string name="longQuote">
         “That’s why New York is so great, though. Everyone you care about can\n despise you and you can still find a bagel so good,\n nothing else matters. Who needs love when you’ve got lox? They both stink, but only one tastes good.”\n —Midge Maisel (Rachel Brosnahan), The Marvelous Mrs. Maisel
     </string>
-    <string name="greeting1">Ellooo</string>
-    <string name="greeting2">whassup!</string>
-    <string name="greeting3">Greetings!</string>
-    <string name="greeting4">long time no see!</string>
     <string name="click_me">Click Me</string>
     <string name="challengeHeader">BEGIN CHALLENGE!</string>
     <string name="callToAction">Find your way to BnW layout</string>
+    <string name="pinkLabel">PINK</string>
+    <string name="pink_layout">pink layout</string>
+    <string name="blue_layout">blue layout</string>
+    <string name="orange_layout">orange layout</string>
+    <string name="green_layout">green layout</string>
+    <string name="home_layout">Home Layout</string>
+    <string name="blueLabel">BLUE</string>
+    <string name="yellow_layout">Yellow Layout</string>
+    <string name="orangeLabel">ORANGE</string>
+    <string name="greenLayout">GREEN</string>
+    <string name="black_white"><![CDATA[BLACK & WHITE]]></string>
+    <string name="yellowLayout">YELLOW</string>
 </resources>

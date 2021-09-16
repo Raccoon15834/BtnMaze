@@ -3,15 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <Button
+    android:layout_height="match_parent"
+    android:background="@color/pinkPurple">
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="@dimen/largeLen"
         android:layout_height="@dimen/largeLen"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:background="@color/white"
-        android:text="Centered"/>
+        android:text="@string/blue_layout"
+        android:textSize="@dimen/lilText"/>
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/vertLine2"
         android:layout_width="wrap_content"
@@ -30,14 +32,16 @@
         app:layout_constraintRight_toLeftOf="@id/vertLine2"
         app:layout_constraintBottom_toTopOf="@id/horiLine2"
         android:background="@color/white"
-        android:text="Sided"/>
+        android:text="@string/green_layout"
+        android:textSize="@dimen/lilText"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="@dimen/smallLen"
         android:layout_height="@dimen/smallLen"
         app:layout_constraintLeft_toRightOf="@id/vertLine2"
         app:layout_constraintTop_toBottomOf="@id/horiLine2"
         android:background="@color/white"
-        android:text="Hmm"/>
+        android:text="@string/home_layout"
+        android:textSize="@dimen/lilText"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -46,6 +50,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias=".6"
-        android:text="layout2"/>
+        android:text="@string/pinkLabel"
+        android:textSize="@dimen/bigText"
+        android:padding="@dimen/marginLen"
+        android:background="@color/hotPink"
+        android:textColor="@color/white"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

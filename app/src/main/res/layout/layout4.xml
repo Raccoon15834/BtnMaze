@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/peach">
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cornerBtn4"
         android:layout_width="@dimen/largeLen"
         android:layout_height="@dimen/largeLen"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:textSize="@dimen/lilText"
+        android:text="@string/pink_layout"
         android:background="@color/white"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="@dimen/smallLen"
@@ -30,8 +33,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias=".35"
         app:layout_constraintHorizontal_bias=".15"
-        android:background="@color/white"/>
+        android:background="@color/white" />
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/overBtn"
         android:layout_width="@dimen/largeLen"
         android:layout_height="@dimen/largeLen"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -40,8 +44,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias=".45"
         app:layout_constraintHorizontal_bias=".40"
+        android:textSize="@dimen/lilText"
         android:background="@color/white"
-        android:text="ontop"/>
+        android:text="@string/green_layout"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="@dimen/smallLen"
         android:layout_height="@dimen/smallLen"
@@ -51,5 +56,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias=".37"
         app:layout_constraintHorizontal_bias=".20"
+        android:text="@string/yellow_layout"
+        android:textSize="@dimen/lilText"
         android:background="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/orangeLabel"
+        android:textSize="@dimen/bigText"
+        app:layout_constraintLeft_toRightOf="@id/cornerBtn4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/overBtn"
+        android:background="@color/spiceOrange"
+        android:textColor="@color/white"
+        android:padding="@dimen/marginLen"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
