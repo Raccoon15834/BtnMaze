@@ -1,12 +1,14 @@
 package das.anusha.btnmaze;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import android.os.Bundle;
 import android.view.MotionEvent;
 
 public class MainActivity extends AppCompatActivity {
     int[] layoutNums;
+    AppCompatButton pinkBtn1, blueBtn1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
