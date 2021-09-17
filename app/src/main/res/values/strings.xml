@@ -18,4 +18,5 @@
     <string name="greenLayout">GREEN</string>
     <string name="black_white"><![CDATA[BLACK & WHITE]]></string>
     <string name="yellowLayout">YELLOW</string>
+    <string name="restartLabel">Success! Back to beginning?</string>
 </resources>

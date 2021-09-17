@@ -26,6 +26,7 @@
         android:textSize="@dimen/bigText"
         android:padding="@dimen/marginLen"/>
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnH3"
         android:layout_width="0dp"
         android:layout_height="@dimen/smallLen"
         app:layout_constraintLeft_toLeftOf="@id/vertLine3"
@@ -36,6 +37,7 @@
         android:text="@string/home_layout"
         android:textSize="@dimen/lilText"/>
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnO3"
         android:layout_width="@dimen/medLen"
         android:layout_height="@dimen/medLen"
         android:text="@string/orange_layout"
@@ -46,6 +48,7 @@
         android:background="@color/white"
         android:textSize="@dimen/lilText"/>
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnY3"
         android:layout_width="@dimen/medLen"
         android:layout_height="@dimen/medLen"
         android:text="@string/yellow_layout"

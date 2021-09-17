@@ -1,26 +1,27 @@
 package das.anusha.btnmaze;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatButton;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.MotionEvent;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
-    int[] layoutNums;
-    AppCompatButton pinkBtn1, blueBtn1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout1);
+        //take btns, and set
+        int[] btns = new int[]{R.id.btnP1, R.id.btnB1, R.id.btnO1, R.id.btnG1};
+        Class[] scrns = new Class[]{Layout2Activity.class, Layout3Activity.class, Layout4Activity.class, Layout5Activity.class};
 
-        layoutNums = new int[]{R.layout.layout1,R.layout.layout2,R.layout.layout3,
-                R.layout.layout4,R.layout.layout5,R.layout.layout6,R.layout.layout7};
+
+        BtnSetter.setBtns(btns, scrns, this);
     }
 
 
 }
-//TODO: 3:37 of vid 8 activities and intents
+
 //on create fills scroll view with buttons, timer?
 
 //SUBMIT: P3L04aDasAnushaLayouts.apk

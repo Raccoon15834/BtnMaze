@@ -19,16 +19,48 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Layout1Activity"
-            android:label="All Layout"
+            android:name=".Layout2Activity"
+            android:label="Pink Layout"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
         </activity>
         <activity
-            android:name=".Layout2Activity"
-            android:label="Pink Layout"
+            android:name=".Layout3Activity"
+            android:label="Blue Layout"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".Layout4Activity"
+            android:label="Orange Layout"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".Layout5Activity"
+            android:label="Green Layout"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".Layout6Activity"
+            android:label="Yellow Layout"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".Layout7Activity"
+            android:label="BNW Layout"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

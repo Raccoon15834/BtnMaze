@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/peach">
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/cornerBtn4"
+        android:id="@+id/btnP4"
         android:layout_width="@dimen/largeLen"
         android:layout_height="@dimen/largeLen"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -35,7 +35,7 @@
         app:layout_constraintHorizontal_bias=".15"
         android:background="@color/white" />
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/overBtn"
+        android:id="@+id/btnG4"
         android:layout_width="@dimen/largeLen"
         android:layout_height="@dimen/largeLen"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -48,6 +48,7 @@
         android:background="@color/white"
         android:text="@string/green_layout"/>
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnY4"
         android:layout_width="@dimen/smallLen"
         android:layout_height="@dimen/smallLen"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -64,10 +65,10 @@
         android:layout_height="wrap_content"
         android:text="@string/orangeLabel"
         android:textSize="@dimen/bigText"
-        app:layout_constraintLeft_toRightOf="@id/cornerBtn4"
+        app:layout_constraintLeft_toRightOf="@id/btnP4"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/overBtn"
+        app:layout_constraintBottom_toTopOf="@id/btnG4"
         android:background="@color/spiceOrange"
         android:textColor="@color/white"
         android:padding="@dimen/marginLen"/>

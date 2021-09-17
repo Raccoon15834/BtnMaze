@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnP1"
         android:layout_width="@dimen/largeLen"
         android:layout_height="@dimen/largeLen"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -13,6 +14,7 @@
         android:text="@string/pink_layout"
         android:textSize="@dimen/lilText"/>
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnB1"
         android:layout_width="@dimen/largeLen"
         android:layout_height="@dimen/largeLen"
         app:layout_constraintRight_toRightOf="parent"
@@ -22,6 +24,7 @@
         android:textColor="@color/white"
         android:textSize="@dimen/lilText"/>
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnO1"
         android:layout_width="@dimen/largeLen"
         android:layout_height="@dimen/largeLen"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -30,6 +33,7 @@
         android:text="@string/orange_layout"
         android:textSize="@dimen/lilText"/>
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnG1"
         android:layout_width="@dimen/largeLen"
         android:layout_height="@dimen/largeLen"
         app:layout_constraintRight_toRightOf="parent"

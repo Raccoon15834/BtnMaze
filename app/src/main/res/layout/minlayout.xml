@@ -11,7 +11,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/greetTop"
         android:textSize="@dimen/lilText"
-        android:text="Success! Back to beginning?"/>
+        android:text="@string/restartLabel"/>
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="0dp"

@@ -56,6 +56,7 @@
                 android:layout_height="wrap_content"
                 android:text="Click Me"/>
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnBNW6"
                 android:layout_width="@dimen/smallLen"
                 android:layout_height="wrap_content"
                 android:text="BnW layout"/>
@@ -74,7 +75,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/topBtn"
+        android:id="@+id/btnO6"
         android:layout_width="@dimen/largeLen"
         android:layout_height="@dimen/smallLen"
         app:layout_constraintLeft_toLeftOf="parent"
