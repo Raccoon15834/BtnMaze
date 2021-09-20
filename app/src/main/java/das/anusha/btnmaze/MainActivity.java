@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
 }
 
-//on create fills scroll view with buttons, timer?
 
 //SUBMIT: P3L04aDasAnushaLayouts.apk
 //7 srnshots of layouts, 7 layout.xml
